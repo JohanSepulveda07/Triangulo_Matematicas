@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caracterización de un Triángulo</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Caracterización de un Triángulo</h1>
+        <form id="triangleForm">
+            <label for="ladoA">Lado A:</label>
+            <input type="number" id="ladoA" required>
+            <label for="ladoB">Lado B:</label>
+            <input type="number" id="ladoB" required>
+            <label for="ladoC">Lado C:</label>
+            <input type="number" id="ladoC" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="resultados"></div>
+        <svg id="trianguloSVG" width="400" height="400"></svg>
+    </div>
+
+    <script src="Jva.js"></script>
+</body>
+</html>
+
